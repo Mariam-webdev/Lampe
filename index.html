@@ -3,61 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Une lampe solaire Portable</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
-        <div><span>Solar</span>Lite</div>
-        <nav>
-            <a href="#">Accueil</a>
-            <a href="#">À Propos</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
-    <section>
+        <div class="entete">
+            <div><span>Solar</span>Lite</div>
+            <nav id="lien">
+                <a href="#">Accueil</a>
+                <a href="#">A propos</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
         <section id="hero">
-             <img src="Image/IMG-20241223-WA0078.jpg" alt="">
-             <div>
+            <div id="lampe">
                 <h1>la lampe solaire qu'il vous faut !</h1>
-                <button>En savoir plus</button>
-             </div>
+                <a href="#">En savoir plus</a>
+            </div>
+            <img class="image1" src="Image/lampe.png" alt="">
         </section>
-        <section id="fonctionalité">
+    </header>
+    <section id="fonctionnalité">
+        <div id="solar">
             <h1>Pourquoi choisir solarlite ?</h1>
-            <p>Description :
-                SolarLite est une lampe solaire portable, idéale pour les voyages et les zones sans
+            <p>
+            SolarLite est une lampe solaire portable, idéale pour les voyages et les zones sans
                 électricité. Rechargeable au soleil, elle est compacte, durable et respectueuse de
-                l'environnement.</p>
-            <div id="pointClé">
-                <div>
-                    <h1>Rechargeable grâce au soleil</h1>
-                    <img src="image/IMG-20241223-WA0080.jpg" alt="">
-                </div>
-                <div>
-                    <h1>Compacte et facile à transporter</h1>
-                    <img src="image/IMG-20241223-WA0084.jpg" alt="">
-                </div>
-                <div>
-                    <h1>Durée de vie polongée avec une batterie integrée</h1>
-                    <img src="Image/support et panneau.jpg" alt="">
-                </div>
+                l’environnement.
+            </p>
+        </div>
+        <section id="cord">
+            <div class="pointClé">
+                <h1>Rechargeable grâce au soleil</h1>
+                <img src="Image/IMG-20241223-WA0082.jpg" alt="">
+                <p>
+                    Utilise la lumière du soleil pour se recharger, offrant une solution <br>d'éclairage éco-responsable et sans consommation d'énergie. <br>Recharge solaire: Allimentée par la lumière naturelle du soleil. <br>Economie d'énergie: Pas besoin de piles ni d'électricité. <br>Autonomie prolongée: S'éclaire toute la nuit après une journée de charge complète.
+                </p>
+            </div>
+            <div class="pointClé">
+                <h1>Compacte et facile à transporter</h1>
+                <img src="Image/IMG-20241223-WA0082.jpg" alt="">
+                <p>
+                    Utilise la lumière du soleil pour se recharger, offrant une solution <br>d'éclairage éco-responsable et sans consommation d'énergie. <br>Recharge solaire: Allimentée par la lumière naturelle du soleil. <br>Economie d'énergie: Pas besoin de piles ni d'électricité. <br>Autonomie prolongée: S'éclaire toute la nuit après une journée de charge complète.
+                </p>
+            </div>
+            <div class="pointClé">
+                <h1>Durée de vie polongée avec une batterie integrée</h1>
+                <img src="Image/IMG-20241223-WA0082.jpg" alt="">
+                <p>
+                    Utilise la lumière du soleil pour se recharger, offrant une solution <br>d'éclairage éco-responsable et sans consommation d'énergie. <br>Recharge solaire: Allimentée par la lumière naturelle du soleil. <br>Economie d'énergie: Pas besoin de piles ni d'électricité. <br>Autonomie prolongée: S'éclaire toute la nuit après une journée de charge complète.
+                </p>
             </div>
         </section>
-        <section id="Contact">
-            <h1>Restez informé</h1>
-            <form action="">
-                <label for="">Nom</label>
-                <input type="text">
-                <label for="">E-mail</label>
-                <input type="text">
-                <button>Soumettre</button>
-            </form>
-
-        </section>
-
     </section>
+        <section id="contact">
+            <div class="form-container">
+                <h1>Contactez-nous</h1>
+                <form action="#contact" method="POST" onsubmit="return validateForm()">
+                <div class="form-group">
+                    <label >Email</label>
+                    <input type="email" id="email" name="email">
+                    <span id="email-error"></span>
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea name="message" id="message" rows="2"></textarea>
+                    <span id="message-error"></span>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+            </div>
+        </section>
+    
     <footer>
-
+        <div id="copy">
+            copyright 02024 tous droits réservés | Ce modèle est concu avec
+        </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

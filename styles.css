@@ -1,0 +1,128 @@
+*{
+    padding: 5px;
+}
+header{
+    background-color: rgb(51, 0, 255);
+    height: 700px;
+    border-radius: 5px;
+    padding-bottom: 90px;
+}
+#hero{
+    display: flex;
+}
+.entete{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 40px;
+    margin: 15px;
+}
+span{
+    color: rgb(38, 0, 255);
+    font-weight: bolder;
+    font-size: 50px;
+}
+#lien a{
+    text-decoration: none;
+    font-size: 40px;
+    margin: 5px;
+}
+#lampe{
+    align-items: center;
+    text-align: center;
+}
+#lampe h1{
+    color: white;
+    width: 100%;
+    font-size: 50px;
+}
+#lampe a{
+    color: white;
+}
+.image1{
+    width: 50%;
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+#fonctionnalité{
+    background-color: rgba(227, 182, 49, 0.642);
+    border-radius: 5px;
+}
+#solar{
+    background-color: hsl(179, 77%, 45%);
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px;
+}
+#solar h1{
+    color: white;
+    font-size: 50px;
+}
+#solar p{
+    color: white;
+}
+#cord{
+    display: flex;
+    padding: 0 5%;
+}
+.pointClé{
+    background-color: rgba(231, 177, 30, 0.692);
+    margin: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.pointClé h1{
+    font-size: 25px;
+}
+.form-container{
+    background-color: rgba(17, 230, 216, 0.433);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+.form-container h1{
+    text-align: center;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+input, textarea{
+    width: 100%;
+    padding: 5px;
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+}
+textarea{
+    resize: vertical;
+}
+button{
+    width: 100%;
+    padding: 12px;
+    background-color: #002aff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: #26e426;
+}
+footer{
+    background-color: rgb(242, 223, 199);
+    padding-top: 10px;
+}
+#copy{
+    text-align: center;
+}
